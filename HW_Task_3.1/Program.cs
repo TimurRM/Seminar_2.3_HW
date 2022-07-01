@@ -1,7 +1,6 @@
-﻿
-        void palindrom()
+﻿void palindrom()
         {
-        int number = new Random().Next(1, 100000);
+        int number = new Random().Next(10, 99999);
         // Console.Write("Insert 5-digit number: ");
         // int number = Convert.ToInt32(Console.ReadLine()); 
         int num1 = number / 10000 % 10;
@@ -20,8 +19,7 @@
             Console.WriteLine(number + " -> No, this is not palindrom");
             }
         }
-        for (int i = 0; i < 10; i++)
-        { 
+        for (int i = 0; i < 100; i++)
+        {
             palindrom();
     }
-    
