@@ -16,7 +16,7 @@ internal class Program
             int number3 = Convert.ToInt32(Console.ReadLine());
            
                 if (number1 / 10000 < 1 || number1 / 10000 > 9){
-                    Console.WriteLine(number1 + " -> " + "Not 5-digit number");
+                    Console.WriteLine(number1 + " -> " + "Please, input only 5-digit positive number");
                 }
                 else if (number1 / 10000 % 10 == number1 % 10 && number1 / 1000 % 10 == number1 / 10 % 10){
                     Console.WriteLine(number1 + " -> Yes, this is palindrom");
@@ -26,8 +26,8 @@ internal class Program
                 }
                 
 
-                    if (number2 >0 && number2 / 10000 < 1 || number2 / 10000 > 9){
-                        Console.WriteLine(number2 + " -> " + "Not 5-digit number");
+                    if (number2 / 10000 < 1 || number2 / 10000 > 9){
+                        Console.WriteLine(number2 + " -> " + "Please, input only 5-digit positive number");
 
                     }
                     else if (number2 / 10000 % 10 == number2 % 10 && number2 / 1000 % 10 == number2 / 10 % 10){
@@ -39,7 +39,7 @@ internal class Program
 
 
                         if (number3 / 10000 < 1 || number3 / 10000 > 9){
-                            Console.WriteLine(number3 + " -> " + "Not 5-digit number");
+                            Console.WriteLine(number3 + " -> " + "Please, input only 5-digit positive number");
                         }
                         else if (number3 / 10000 % 10 == number3 % 10 && number3 / 1000 % 10 == number3 / 10 % 10){
                             Console.WriteLine(number3 + " -> Yes, this is palindrom");

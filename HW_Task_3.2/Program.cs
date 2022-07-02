@@ -7,17 +7,17 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Введите координату Ax");
+        Console.Write("Введите координату Ax: ");
         int Ax = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Введите координату Ay");
+        Console.Write("Введите координату Ay: ");
         int Ay = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Введите координату Az");
+        Console.Write("Введите координату Az: ");
         int Az = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Введите координату Bx");
+        Console.Write("Введите координату Bx: ");
         int Bx = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Введите координату By");
+        Console.Write("Введите координату By: ");
         int By = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Введите координату Bz");
+        Console.Write("Введите координату Bz: ");
         int Bz = Convert.ToInt32(Console.ReadLine());
 
         Console.Write("A " + (Ax,Ay,Az) + "; B" + (Bx,By,Bz) + " -> ");
